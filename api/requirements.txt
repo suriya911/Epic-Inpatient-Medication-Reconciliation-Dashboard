@@ -1,0 +1,8 @@
+# Runtime dependencies for the Vercel Python Function.
+# Kept minimal: every package here counts against the function bundle size limit.
+# uvicorn is deliberately absent — Vercel provides the server. It lives in
+# requirements-dev.txt for local development only.
+fastapi==0.141.1
+httpx==0.28.1
+pyjwt[crypto]==2.14.0
+python-dateutil==2.9.0.post0

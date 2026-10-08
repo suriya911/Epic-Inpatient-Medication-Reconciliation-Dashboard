@@ -1,0 +1,7 @@
+# Local development and CI. Installs the runtime deps plus the test toolchain.
+-r api/requirements.txt
+
+uvicorn[standard]==0.53.0
+pytest==9.1.1
+pytest-asyncio==1.4.0
+jwcrypto==1.6.1

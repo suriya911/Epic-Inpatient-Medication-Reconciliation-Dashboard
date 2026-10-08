@@ -1,0 +1,35 @@
+# Secrets — never commit. EPIC_PRIVATE_KEY is a real signing key: anyone holding it can
+# mint access tokens as this app. If one is ever pushed, rotate it (new keypair, new
+# jwks.json, redeploy, update the Epic app registration).
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+web/dist/
+web/node_modules/
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Serena MCP server cache
+.serena/
