@@ -1,5 +1,7 @@
 # Inpatient Medication Reconciliation Dashboard
 
+[![CI](https://github.com/suriya911/Epic-Inpatient-Medication-Reconciliation-Dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/suriya911/Epic-Inpatient-Medication-Reconciliation-Dashboard/actions/workflows/ci.yml)
+
 A clinician-facing dashboard that reads inpatient encounter and medication data from
 **Epic's public FHIR R4 sandbox** and reconciles what was *ordered* against what was
 actually *given* — flagging doses that are on time, overdue, or missed.
